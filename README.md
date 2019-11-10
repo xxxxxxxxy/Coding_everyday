@@ -23,6 +23,10 @@ Build a resnet50 to classify image（need to be updated）
 
 更新昨天没有跑通的代码，在服务器上面跑了一遍，但是分类效果不好
 
+2019/11/09
+
+尝试写多个特征的分类网络
+
 Update resnet50 for classifing image
 
 待练习的package：sklearn和nltk
