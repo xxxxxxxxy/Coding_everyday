@@ -29,6 +29,10 @@ Build a resnet50 to classify image（need to be updated）
 
 Update resnet50 for classifing image
 
-待练习的package：sklearn和nltk
+待练习的package：
 
-leetcode题目
+1.sklearn和nltk
+
+2.leetcode题目
+
+3.像bert和resnet的网络，可以试试他们的特征抽取，不局限于分类任务
