@@ -42,3 +42,5 @@ Read, process, save, select colum, replace value
 2.leetcode题目
 
 3.像bert和resnet的网络，可以试试他们的特征抽取，不局限于分类任务
+
+4.理解 yield 关键字
