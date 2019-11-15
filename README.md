@@ -35,6 +35,10 @@ Update resnet50 for classifing image
 
 Read, process, save, select colum, replace value
 
+2019/11/15
+
+神经网络的细节
+
 待练习的package：
 
 1.sklearn和nltk
