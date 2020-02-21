@@ -39,6 +39,14 @@ Read, process, save, select colum, replace value
 
 神经网络的细节
 
+Some details about neural network
+
+2020/02/21
+
+使用wget命令从google driver下载文件
+
+Download files from google driver using wget
+
 待练习的package：
 
 1.sklearn和nltk
