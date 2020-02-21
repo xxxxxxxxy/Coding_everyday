@@ -1,3 +1,7 @@
+#download&id 后面需要根据具体情况改变，需要注意，并不是全部从google driver复制过来的，而是其中一部分。
+
+例如：下面#download&id是来自于https://drive.google.com/open?id=1KyzIpmS7LvriMLIMQW13HNIxQ5YAuaZe的链接
+
 大文件：wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1KyzIpmS7LvriMLIMQW13HNIxQ5YAuaZe' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1KyzIpmS7LvriMLIMQW13HNIxQ5YAuaZe" -O test_img.zip && rm -rf /tmp/cookies.txt
 
 小文件：wget --no-check-certificate ‘https://docs.google.com/uc?export=download&id=https://drive.google.com/open?id=1KyzIpmS7LvriMLIMQW13HNIxQ5YAuaZe’
