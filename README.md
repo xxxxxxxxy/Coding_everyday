@@ -47,6 +47,12 @@ Some details about neural network
 
 Download files from google driver using wget
 
+2021/01/25
+
+在keras中自定义f1_score
+
+f1_score for keras
+
 待练习的package：
 
 1.sklearn和nltk
